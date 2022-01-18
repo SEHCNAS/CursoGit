@@ -19,5 +19,14 @@ git config --global alias.<Comando curto><Comando longo>
 git <Comando> --help ou git <Comando> -help
 	- Abre a documentação do comando especificado
 
+git add <nome do arquivo>
+	-Adiciona o arquivo para ser enviado no commit
+
+git commit -m "Mensagem obrigatoria"
+	- prepara os arquivo para serem enviados
+
+git push --set-upstream origin master
+	- Comando para realizar o envio para o github 
+
 Hirarquia
 	- System > Global > Local
