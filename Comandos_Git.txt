@@ -1,0 +1,23 @@
+git ini 
+	- para iniciar o git na pasta selecionada
+
+git remote add origin + Url 
+	- Defini o ambiente remoto do git
+
+git remote get-url origin 
+	- Mostra qual ambiente esta sendo usado
+
+git config --local user.name
+	- Defini o nome que sera usado
+
+git config --local user.email 
+	- Defini o email que sera usado 
+
+git config --global alias.<Comando curto><Comando longo>
+	- Defini um atalho para algum comando
+
+git <Comando> --help ou git <Comando> -help
+	- Abre a documentação do comando especificado
+
+Hirarquia
+	- System > Global > Local
