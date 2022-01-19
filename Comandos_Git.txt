@@ -53,6 +53,18 @@ git branch -c <nome da branch específica> <nome da nova branch>
 git branch -a
 	- mostra todas as branchs usadas e branchs de rastreamento
 
+Alterar o nome da branch Local
+	Git branch -m <Nome da branch>
+		-Mudar o nome da branch atual
 
+	git branch -m <Nome antigo> <Nome novo>
+		-Altera o nome de uma branch
+
+Alterar o nome da branch remota
+	git push origin :<Nome da branch>
+		-Deleta a branch do server
+
+	git push -u origin <Nome da branch>
+		-Envia a nova branch para o server
 Hirarquia
 	- System > Global > Local
