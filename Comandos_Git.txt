@@ -27,14 +27,16 @@ git commit -m "Mensagem obrigatoria"
 
 git push --set-upstream origin master
 	- Comando para realizar o envio para o github 
-	
-git clone <url do repositorio>
-	- Comando para clonar um repositorio remoto localmente
 
-git status
-	-Mostra status dos arquivos
+git cat-file -t <hash>
+	-Mostra oque é a hase
 
-git add .
-	- Adiciona todos os arquivos para area de commit
+git cat-file -p <hash>
+	-Mostra mostra o conteudo da hase
+
+git pull
+	-Pega as alterações remotas e baixa localmente
+
+
 Hirarquia
 	- System > Global > Local
