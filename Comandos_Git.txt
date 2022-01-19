@@ -37,6 +37,22 @@ git cat-file -p <hash>
 git pull
 	-Pega as alterações remotas e baixa localmente
 
+git .git/head
+	-Retorna a branch onde esta sendo feitos os commits 
+
+git checkout -b <nome da nova branch>
+	-Cria uma nova branch baseada na master e ja a defini para futuros commits
+	-Ao criar um branch é preciso criar uma branch de rastreamento com git push --set-upstream origin <nome da branch> ou git push -u origin <nome da branch>
+
+git branch <nome da nova branch>
+	-Cria a branch sem alterar automaticamente para ela
+
+git branch -c <nome da branch específica> <nome da nova branch>
+	-Para criar uma nova branch a partir de uma branch especifica utilize o comando
+
+git branch -a
+	- mostra todas as branchs usadas e branchs de rastreamento
+
 
 Hirarquia
 	- System > Global > Local
