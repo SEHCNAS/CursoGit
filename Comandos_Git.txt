@@ -31,5 +31,10 @@ git push --set-upstream origin master
 git clone <url do repositorio>
 	- Comando para clonar um repositorio remoto localmente
 
+git status
+	-Mostra status dos arquivos
+
+git add .
+	- Adiciona todos os arquivos para area de commit
 Hirarquia
 	- System > Global > Local
